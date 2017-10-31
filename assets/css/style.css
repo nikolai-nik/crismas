@@ -534,7 +534,7 @@ p {
 
 .slide-img {
   width: 100%;
-  height: auto; }
+  height: 100%; }
 
 #prev-btn, #next-btn {
   position: absolute;
