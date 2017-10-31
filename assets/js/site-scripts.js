@@ -124,7 +124,7 @@
 			//////////////////////slider
 		var slideNow = 1;
 		var slideCount = $('#slidewrapper').children().length;
-		var slideInterval = 3000;
+		var slideInterval = 6000;
 		var navBtnId = 0;
 		var translateWidth = 0;
 
@@ -196,6 +196,46 @@
 		    }
 		}
 		////////////////slider
+
+
+
+
+
+		///////////////клик показать скрыть
+		$('#link1').click(function(){
+			if($('#look1').css("display")=="block"){
+				$('#look1').css("display", "none");
+			}
+			else{
+				$('#look1').css("display", "block");
+			}
+		});
+		//
+		$('#link2').click(function(){
+			if($('#look2').css("display")=="flex"){
+				$('#look2').css("display", "none");
+			}
+			else{
+				$('#look2').css("display", "flex");
+			}
+		});
+		$('#link3').click(function(){
+			if($('#look3').css("display")=="flex"){
+				$('#look3').css("display", "none");
+			}
+			else{
+				$('#look3').css("display", "flex");
+			}
+		});
+		$('#link4').click(function(){
+			if($('#look4').css("display")=="flex"){
+				$('#look4').css("display", "none");
+			}
+			else{
+				$('#look4').css("display", "flex");
+			}
+		});
+
 
 	});// end ready
 
