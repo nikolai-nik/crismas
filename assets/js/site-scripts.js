@@ -168,6 +168,7 @@
 			}
 		});
 
+		$(document).snowfall({image :"assets/images/images/flake.png", minSize: 10, maxSize:32});
 
 	});// end ready
 
